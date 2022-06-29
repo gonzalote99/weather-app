@@ -6,11 +6,29 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" >
   <link rel="stylesheet" href="style.css" >
-  <link rel="shortcut-icon" href="icons/thunder.png" >
+  <link rel="shortcut-icon" href="https://raw.githubusercontent.com/rutikwankhade/SkyMate/master/icons/thunder.png" >
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>weather app</title>
 </head>
 <body>
-  
+  <nav class="navbar navbar-dark bg-primary">
+    <h3 class="title">wather app</h3>
+  </nav>
+  <div class="container">
+    <div class="container-flex">
+    <div class="weather-card mt-2">
+     <div>
+      <input type="text" placeholder="enter place" class="m-1 city-input pl-4">
+      <button type="button" class=" btn-search m-1">search</button>
+     </div>
+     <div class="lg-card m-2" data-aos="fade-up">
+      <div d-flex flex-colum>
+      <img src="https://raw.githubusercontent.com/rutikwankhade/SkyMate/master/icons/011-cloud.png" class="weather-icon" >
+      <h4 class="weather">love day</h4> 
+      </div>
+     </div>
+    </div>
+    </div>
+  </div>
 </body>
 </html>
